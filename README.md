@@ -64,14 +64,14 @@ SeekBar desc='0 minutes 0 seconds of 3 minutes 49 seconds' @1122,863 2012x108
 ### Claude Code
 
 ```
-/plugin marketplace add BASILAHAMED/android-agentkit
+/plugin marketplace add BASILAHAMED/android-agent-kit
 /plugin install android-agent-kit@android-agent-kit
 ```
 
 ### Codex CLI
 
 ```bash
-codex plugin marketplace add BASILAHAMED/android-agentkit
+codex plugin marketplace add BASILAHAMED/android-agent-kit
 codex plugin add android-agent-kit@android-agent-kit
 ```
 
@@ -80,7 +80,7 @@ Start a new session, then confirm with `/skills`.
 ### Copilot CLI
 
 ```bash
-copilot plugin install BASILAHAMED/android-agentkit
+copilot plugin install BASILAHAMED/android-agent-kit
 ```
 
 ### Any other agent
@@ -88,8 +88,8 @@ copilot plugin install BASILAHAMED/android-agentkit
 The skills are plain, self-contained markdown — no runtime, no dependencies.
 
 ```bash
-git clone https://github.com/BASILAHAMED/android-agentkit.git
-cp -r android-agentkit/plugins/android-agent-kit/skills/* ~/.hermes/skills/android/
+git clone https://github.com/BASILAHAMED/android-agent-kit.git
+cp -r android-agent-kit/plugins/android-agent-kit/skills/* ~/.hermes/skills/android/
 # Cursor / Windsurf / generic:  .claude/skills/   OpenCode:  ~/.config/opencode/skill/
 ```
 
