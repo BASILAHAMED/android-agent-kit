@@ -1,0 +1,38 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "android-agent-kit",
+  "description": "Android development agent skills",
+  "owner": {
+    "name": "GenOS Team"
+  },
+  "metadata": {
+    "description": "Android and Jetpack Compose agent skills \u2014 architecture, Material 3 UX, build verification, text-first device control, accessibility auditing, testing, and dependencies.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "android-agent-kit",
+      "source": "./plugins/android-agent-kit",
+      "description": "Android and Jetpack Compose agent skills \u2014 architecture, Material 3 UX, build verification, text-first device control, accessibility auditing, testing, and dependencies.",
+      "version": "1.0.0",
+      "author": {
+        "name": "GenOS Team"
+      },
+      "repository": "https://github.com/BASILAHAMED/android-agentkit",
+      "license": "MIT",
+      "keywords": [
+        "android",
+        "kotlin",
+        "jetpack-compose",
+        "material3",
+        "agent-skills",
+        "accessibility",
+        "gradle",
+        "adb",
+        "ux",
+        "mobile",
+        "testing"
+      ]
+    }
+  ]
+}

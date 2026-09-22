@@ -1,0 +1,34 @@
+{
+  "name": "android-agent-kit",
+  "version": "1.0.0",
+  "description": "Android and Jetpack Compose agent skills \u2014 architecture, Material 3 UX, build verification, text-first device control, accessibility auditing, testing, and dependencies.",
+  "author": {
+    "name": "GenOS Team"
+  },
+  "homepage": "https://github.com/BASILAHAMED/android-agentkit",
+  "repository": "https://github.com/BASILAHAMED/android-agentkit",
+  "license": "MIT",
+  "keywords": [
+    "android",
+    "kotlin",
+    "jetpack-compose",
+    "material3",
+    "agent-skills",
+    "accessibility",
+    "gradle",
+    "adb",
+    "ux",
+    "mobile",
+    "testing"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Android Agent Kit",
+    "shortDescription": "Android, Compose, and Material 3 skills with a build-verify discipline.",
+    "longDescription": "Nine skills covering Android architecture, Jetpack Compose, Material 3 UX, Gradle build verification, text-first device control over adb, live accessibility auditing, testing, and live dependency resolution.",
+    "developerName": "GenOS Team",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Use Android Agent Kit to build and verify this Android feature."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "android-agent-kit",
+  "interface": {
+    "displayName": "Android Agent Kit"
+  },
+  "plugins": [
+    {
+      "name": "android-agent-kit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/android-agent-kit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "NONE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
